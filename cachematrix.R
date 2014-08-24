@@ -2,6 +2,15 @@
 #### the make CacheMatrix will also store the original as well as inverse matrices
 #### initialize Inverse matrix to NULL
 
+### to test, after running source("makecachematrix.R")
+### create a matrix (I used one of randon numbers, e.g. y<-matrix(rnorm(100),10,10))
+### run x<-makeCacheMatrix(y)
+### run cashSolve(x)
+### the second time around you run it, it shows the 'getting cached data' message
+### other checks: rerun makeCacheMatrix - it re-initializes the original matrix, so restes the inverse to null
+
+
+
 makeCacheMatrix<-function(x=matrix())
 {
     

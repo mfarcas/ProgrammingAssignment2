@@ -10,6 +10,8 @@
 ### other checks: rerun makeCacheMatrix - it re-initializes the original matrix, so restes the inverse to null
 
 
+# I did this assignemnt two years ago - I looked it over, it's fine, so I'll resubmit
+
 
 makeCacheMatrix<-function(x=matrix())
 {
